@@ -1,7 +1,7 @@
 module.exports = {
   title: "Mengyu'Notes",
   description: "基于云开发的 VuePress 网站应用示例",
-  base: "/vuepress/",
+  base: "/",
   themeConfig: {
     nav: [
       { text: "首页", link: "/" },
