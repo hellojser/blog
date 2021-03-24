@@ -1,4 +1,4 @@
-name: autoDeplay
+name: autoDeploy
 
 on:
   push:
