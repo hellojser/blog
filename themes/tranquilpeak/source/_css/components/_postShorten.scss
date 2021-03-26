@@ -137,7 +137,7 @@
             display: block;
             width:   100%;
         }
-        .postShorten-excerpt > p:last-of-type {
+        .postShorten-excerpt > p {
             margin-bottom: 0;
         }
         .postShorten-thumbnailimg {
@@ -148,10 +148,8 @@
             margin:   15px 0 15px 0;
 
             img {
-                width:      100%;
-                height:     auto;
-                max-height: $post-bottom-thumbnail-image-max-height;
-                object-fit: cover;
+                width:  auto;
+                height: auto;
             }
         }
     }

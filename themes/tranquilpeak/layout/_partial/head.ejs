@@ -186,9 +186,9 @@ var feeds = [];
     <%- partial('baidu-analytics') %>
 
     <% if (page.comments) { %>
-        <% if (theme.gitment.enable) { %>
+        <% if (theme.gitment && theme.gitment.enable) { %>
             <%- css('assets/css/gitment.css') %>
-        <% } else if (theme.gitalk.enable) { %>
+        <% } else if (theme.gitalk && theme.gitalk.enable) { %>
             <%- css('assets/css/gitalk.css') %>
         <% } %>
     <% } %>
