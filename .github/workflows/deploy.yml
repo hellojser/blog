@@ -7,7 +7,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  deploy:
   runs-on: ubuntu-latest
   name: Deploy Hexo Souce Repo to Tencent CloudBase
   steps:
