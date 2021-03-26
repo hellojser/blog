@@ -17,12 +17,18 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '10.x'
+      # Bulid Theme
+      - name: Hexo Bulid Theme
+        run: |
+          cd ./themes/tranquilpeak/
+          npm install
+          npm run build
       # NPM and Hexo
-      - name: NPM
+      - name: Hexo NPM Install
         run: npm install
-      - name: Clean
+      - name: Hexo Clean
         run: ./node_modules/.bin/hexo clean
-      - name: Generate
+      - name: Hexo Generate
         run: ./node_modules/.bin/hexo generate
       # Deploy static to Tencent CloudBase
       - name: Deploy static to Tencent CloudBase
