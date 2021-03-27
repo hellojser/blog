@@ -37,19 +37,19 @@ sidebar:
         home:
             title: global.home
             url: /
-            icon: home
+            icon: fa fa-home
         archives:
             title: global.archives
             url: /all-archives
-            icon: archive
+            icon: fa fa-archive
         categories:
             title: global.categories
             url: /all-categories
-            icon: bookmark
+            icon: fa fa-bookmark
         tags:
             title: global.tags
             url: /all-tags
-            icon: tags
+            icon: fa fa-tags
         # search:
         #     title: global.search
         #     url: /#search
@@ -59,12 +59,12 @@ sidebar:
         about:
             title: global.about
             url: /#about
-            icon: user
+            icon: fa fa-user-circle
     author_links:
-        github:
-            title: global.github
-            url: https://github.com/hellojser
-            icon: github
+        # github:
+        #     title: global.github
+        #     url: https://github.com/hellojser
+        #     icon: fa fa-git-square
         # stack_overflow:
         #     title: global.stack_overflow
         #     url: http://stackoverflow.com/users
@@ -85,10 +85,10 @@ sidebar:
         #     title: global.linkedin
         #     url: https://www.linkedin.com/profile/
         #     icon: linkedin
-        mail:
-            title: global.mail
-            url: mailto:hellojser@gmail.com
-            icon: envelope-o
+        # mail:
+        #     title: global.mail
+        #     url: mailto:hellojser@gmail.com
+        #     icon: fa fa-user-circle-o
     # rss:
     #     rss:
     #         title: global.rss
@@ -239,17 +239,17 @@ sharing_options:
     #     icon: "fa-google-plus"
     #     url: "https://plus.google.com/share?url={{post.permalink}}"
     # Asian social networks
-    # weibo:
-    #     title: "Weibo"
-    #     icon: "fa-weibo"
-    #     url: "http://service.weibo.com/share/share.php?&title={{post.permalink}}"
+    weibo:
+        title: "Weibo"
+        icon: "fa fa-star"
+        url: "http://service.weibo.com/share/share.php?&title={{post.permalink}}"
     # qq:
     #     title: "QQ"
-    #     icon: "fa-qq"
+    #     icon: "fa fa-qq"
     #     url: "http://connect.qq.com/widget/shareqq/index.html?url={{post.permalink}}&title={{post.title}}"
     # qzone:
     #     title: "Qzone"
-    #     icon: "fa-star"
+    #     icon: "fa fa-star"
     #     url: "http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={{post.permalink}}"
     # renren:
     #     title: "Renren"
